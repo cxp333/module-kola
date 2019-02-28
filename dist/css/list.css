@@ -1,0 +1,238 @@
+#Main {
+  background: #F3F3F3;
+  padding-bottom: 77px;
+  cursor: default;
+}
+
+#Main .list {
+
+  overflow: hidden;
+}
+
+#Main .list li:nth-child(4n) {
+  margin: 0;
+}
+
+#Main .list li {
+  width: 263px;
+	height: 280px;
+  background: #fff;
+  font-size: 12px;
+  line-height: 22px;
+  float: left;
+  margin: 0 12px 14px 0;
+  position: relative;
+}
+
+#Main .list li img {
+  width: 260px;
+  height: 262px;
+}
+
+#Main .list li .hezi {
+  padding: 0 13px;
+}
+
+#Main .list li .p1 .xianjia {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 600;
+  color: #E31436;
+}
+
+#Main .list li .p1 .yuanjia {
+  color: #999;
+}
+
+#Main .list li .p2 {
+  color: #333;
+  height: 22px;
+  overflow: hidden;
+}
+
+#Main .list li .p2:hover {
+  color: #e31436;
+  text-decoration: underline;
+}
+
+#Main .list li .ziying {
+  width: 33px;
+  height: 17px;
+  border: 1px solid #E31436;
+  color: #E31436;
+  padding: 0 3px;
+  border-radius: 3px;
+  margin-right: 4px;
+}
+
+#Main .list li .mj {
+  background: #E31436;
+  color: #fff;
+  border-radius: 3px;
+  padding: 0 3px;
+  margin-right: 4px;
+}
+
+#Main .yema {
+  width: 100%;
+  height: 30px;
+  text-align: center;
+  font-size: 14px;
+  line-height: 30px;
+  margin: 20px 0 30px 0;
+}
+
+#Main .yema .yemali {
+  display: inline-block;
+  vertical-align: top;
+}
+
+#Main .yema .ac {
+  display: inline-block;
+  vertical-align: top;
+  width: 30px;
+  height: 30px;
+  border: 1px solid #ddd;
+  color: #333;
+  margin-right: 5px;
+}
+
+#Main .yema .sx {
+  display: inline-block;
+  vertical-align: top;
+  width: 60px;
+  height: 30px;
+  border: 1px solid #ddd;
+  color: #333;
+}
+
+#Main .yema .active {
+  background: #E31436;
+  color: #fff;
+}
+
+#Main .box0 {
+  line-height: 56px;
+  font-size: 13px;
+  overflow: hidden;
+}
+
+
+
+
+			.pagination{
+				position: absolute;
+			  top:2200px;
+			  left:550px;}
+			.pagination a {
+			    text-decoration: none;
+				border: 1px solid #AAE;
+				color: #15B;
+			}
+			
+			.pagination a, .pagination span {
+			    display: inline-block;
+			    padding: 0.1em 0.4em;
+			    margin-right: 5px;
+				margin-bottom: 5px;
+			}
+			
+			.pagination .current {
+			    background: #26B;
+			    color: #fff;
+				border: 1px solid #AAE;
+			}
+			
+			.pagination .current.prev, .pagination .current.next{
+				color:#999;
+				border-color:#999;
+				background:#fff;
+			}
+			
+			
+			
+		    #list {
+		        width: 1000px;
+				height: 1700px;
+		        margin: 10px auto;
+		    }
+			
+		    #list ul {
+		        list-style: none;
+		    }
+			
+		    #list ul li {
+		        width: 240px;
+		        height: 280px;
+		        margin-left: 8px;
+		        margin-top: 25px;
+		        margin-bottom: 5px;
+		        position: relative;
+		        float: left;
+				border: 1px solid #ECECEC;
+		    }
+			
+		    #list ul li div.img {
+		        padding: 4px;
+		        
+		        
+		      
+		        margin-top: 10px;
+		    }
+			
+		    #list ul li div img {
+		        width: 230px;
+		        height: 180px;
+		    }
+			
+		    #list ul li div.detail {
+		        margin: 5px;
+		        color: #559999;
+		        float: left;
+		        width: 240px;
+		    }
+			
+		    #list ul li span.price {
+		        float: right;
+		        color: #cc0033;;
+		        margin-right: 8px;
+				
+		    }
+			
+		    #setPageDiv {
+		        clear: left;
+		        width: 1000px;
+		        margin: 10px auto;
+		    }
+			
+		    .shopping {
+		        position: fixed;
+		        height: 50px;
+		        width: 200px;
+		        right: 0px;
+		        top: 15px;
+		    }
+			
+		    .shopping-buy-btn {
+		      
+		        
+		        color: #cc0033;
+		        font-size: small;
+		        border-radius: 3px;
+		    
+			
+		    }
+			
+		    .shopping span.showNum {
+		        position: absolute;
+		        left: 8px;
+		        top: -8px;
+		        background-color: #f69;
+		        color: #FFFFFF;
+		        font-size: large;
+		        width: 20px;
+		        height: 15px;
+		        border-radius: 20px;
+		        text-align: center;
+		    }
+				em{cursor: pointer;}
